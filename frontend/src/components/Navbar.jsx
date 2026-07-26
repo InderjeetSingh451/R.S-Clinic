@@ -22,7 +22,6 @@ const Navbar = () => {
     { name: "Doctor", href: "#doctor" },
     { name: "Laboratory", href: "#laboratory" },
     { name: "Gallery", href: "#gallery" },
-    { name: "Contact", href: "#contact" },
   ];
 
   const handleLinkClick = () => {
