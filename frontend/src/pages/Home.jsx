@@ -9,7 +9,6 @@ import Doctors from "../components/Doctors";
 import Testimonials from "../components/Testimonials";
 import Gallery from "../components/Gallery";
 import FAQ from "../components/FAQ";
-import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 const Home = () => {
