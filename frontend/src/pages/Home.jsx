@@ -10,33 +10,37 @@ import Testimonials from "../components/Testimonials";
 import Gallery from "../components/Gallery";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
+import SEO from "../components/SEO";
 
 const Home = () => {
   return (
-    <div id="home" className="bg-white overflow-hidden">
-      <Navbar />
+    <>
+      <SEO />
+      <div id="home" className="bg-white overflow-hidden">
+        <Navbar />
 
-      <Hero />
+        <Hero />
 
-      <About />
+        <About />
 
-      <Services />
+        <Services />
 
-      <Laboratory />
+        <Laboratory />
 
-      <WhyChooseUs />
+        <WhyChooseUs />
 
-      <Statistics />
+        <Statistics />
 
-      <Doctors />
+        <Doctors />
 
-      <Testimonials />
+        <Testimonials />
 
-      <Gallery />
+        <Gallery />
 
-      <FAQ />
-      <Footer />
-    </div>
+        <FAQ />
+        <Footer />
+      </div>
+    </>
   );
 };
 
